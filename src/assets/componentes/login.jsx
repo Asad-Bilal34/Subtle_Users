@@ -22,7 +22,7 @@ const Login = () => {
       alert('Login successful');
       if (formData.email === "admin@gmail.com") {
         navigate('/admin');
-      }else{
+}else{
         navigate('/upload'); 
       }
       
