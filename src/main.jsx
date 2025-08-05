@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './assets/components/login.jsx';
 import UploadForm from './assets/components/UploadForm.jsx';
 import AdminPanel from './assets/components/AdminPanel.jsx';
-
+// ...existing code...
 // ✅ Render with routes
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
