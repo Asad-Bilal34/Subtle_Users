@@ -5,9 +5,9 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // ✅ Import your components
-import Login from './assets/componentes/Login.jsx';
-import UploadForm from './assets/componentes/UploadForm.jsx';
-import AdminPanel from './assets/componentes/AdminPanel.jsx';
+import Login from './assets/components/login.jsx';
+import UploadForm from './assets/components/UploadForm.jsx';
+import AdminPanel from './assets/components/AdminPanel.jsx';
 
 // ✅ Render with routes
 ReactDOM.createRoot(document.getElementById('root')).render(
